@@ -1,5 +1,4 @@
 🎂 Age Calculator Web App
-
 A simple and interactive Age Calculator built using HTML, CSS, and JavaScript.
 This app allows users to calculate their exact age in years, months, and days based on their birth date.
 
@@ -11,8 +10,8 @@ This app allows users to calculate their exact age in years, months, and days ba
 💡 Beginner-friendly project
 🖥️ Demo
 
-👉 Live Preview: http://127.0.0.1:5504
-(You can replace this with your deployed link later)
+👉 Live Preview:
+(https://usamaawol.github.io/Age-Calculator/)
 
 📸 Screenshot
 <img width="955" height="912" alt="image" src="https://github.com/user-attachments/assets/17042c00-b7b3-47df-a7ed-1fa40e0f1eec" />
@@ -37,7 +36,7 @@ Months
 Days
 📦 Installation & Usage
 Clone the repository:
-git clone https://github.com/your-username/age-calculator.git
+git clone https://github.com/usamaawol/age-calculator.git
 Open the project folder:
 cd age-calculator
 Run the app:
@@ -55,16 +54,11 @@ Contributions are welcome!
 Feel free to fork this repo and submit a pull request.
 
 📜 License
-
 This project is open-source and available under the MIT License.
-
 🙌 Acknowledgements
 Inspired by beginner JavaScript projects
 Built for learning and practice
 👨‍💻 Author
-
-Your Name
-
-GitHub: https://github.com/your-username
-
+Your Name: USAMA AWOL
+GitHub: https://github.com/usamaawol
 💡 If you like this project, give it a ⭐ on GitHub!
