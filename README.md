@@ -12,10 +12,6 @@ This app allows users to calculate their exact age in years, months, and days ba
 
 👉 Live Preview:
 (https://usamaawol.github.io/Age-Calculator/)
-
-📸 Screenshot
-<img width="955" height="912" alt="image" src="https://github.com/user-attachments/assets/17042c00-b7b3-47df-a7ed-1fa40e0f1eec" />
-
 🛠️ Technologies Used
 HTML – Structure of the app
 CSS – Styling and layout
