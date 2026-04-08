@@ -57,8 +57,9 @@ Feel free to fork this repo and submit a pull request.
 This project is open-source and available under the MIT License.
 🙌 Acknowledgements
 Inspired by beginner JavaScript projects
-Built for learning and practice
-👨‍💻 Author
-Your Name: USAMA AWOL
+Built for learning and practice.
+
+👨‍💻 Author:
+ USAMA AWOL
 GitHub: https://github.com/usamaawol
 💡 If you like this project, give it a ⭐ on GitHub!
