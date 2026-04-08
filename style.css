@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #bef0d6, #90bfac);
+    color: rgb(11, 178, 244);
+    padding: 10px;
+
+}
+div.container{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 100px;
+    border: 20px solid #e8daff;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 darkblue;
+}
+.calculator{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 100%;
+    max-width: 600px;
+   
+
+}
+.input-box{
+    padding: 35px;
+   
+}
+.input-box input{
+    color: rgb(93, 136, 236);
+    display: flex;
+    background-color: #e8daff;
+    padding: 14px  20px;
+    margin-right: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    position: relative;
+    border-radius: 5px;
+    flex: 1;
+}
+.input-box label{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+.input-box button{
+    cursor: pointer;
+    background: green;
+    padding: 5px 10px;
+    margin: 10px 0 20px;
+    font-size: 20px;
+    
+}
+
+
+}
+.input-box h1{
+    color: rgb(8, 8, 240);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+img{
+    width: 100px;
+    height: 100px;
+    align-items: left;
+    justify-content: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.input-box input::-webkit-calender-picker-indicator {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-size: 30px;
+    cursor: pointer;
+
+}
+#result{
+    color: rgb(8, 8, 240);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
