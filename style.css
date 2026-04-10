@@ -36,16 +36,19 @@ div.container{
 }
 .input-box input{
     color: rgb(93, 136, 236);
-    display: flex;
+    width: 100%;
+    min-height: 54px;
     background-color: #e8daff;
-    padding: 14px  20px;
-    margin-right: 20px;
-    border: 0;
-    outline: 0;
-    font-size: 18px;
+    padding: 14px 20px;
+    padding-right: 56px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #c0b6ff;
+    outline: none;
+    font-size: 20px;
+    border-radius: 14px;
+    box-shadow: inset 0 1px 4px rgba(0,0,0,0.08);
     position: relative;
-    border-radius: 5px;
-    flex: 1;
+    cursor: pointer;
 }
 .input-box label{
     color: darkblue;
@@ -56,15 +59,21 @@ div.container{
 }
 .input-box button{
     cursor: pointer;
-    background: green;
-    padding: 5px 10px;
-    margin: 10px 0 20px;
+    background: #076b2d;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 16px 0 0;
     font-size: 20px;
-    
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+    transition: background 0.2s ease;
+}
+.input-box button:hover{
+    background: #0a843c;
 }
 
 
-}
 .input-box h1{
     color: rgb(8, 8, 240);
     font-size: 30px;
@@ -81,17 +90,17 @@ img{
     margin-top: 10px;
 
 }
-.input-box input::-webkit-calender-picker-indicator {
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: auto;
-    height: auto;
+.input-box input::-webkit-calendar-picker-indicator {
+    right: 16px;
+    width: 34px;
+    height: 34px;
     position: absolute;
-    background-size: 30px;
     cursor: pointer;
+    color: transparent;
+}
 
+.input-box {
+    position: relative;
 }
 #result{
     color: rgb(8, 8, 240);

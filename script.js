@@ -1,12 +1,16 @@
 let userInput = document.getElementById("date");
-let resultOutput = document.getElementById("result");
-let calculateButton = document.querySelector("button");
+let result = document.getElementById("result");
+let calculateButton = document.getElementById("calculate-btn");
 
 userInput.max = new Date().toISOString().split("T")[0];
+userInput.min = "1900-01-01";
 calculateButton.addEventListener("click", calculateAge);
-let result = document.getElementById("result");
 
 function calculateAge(){
+    if (!userInput.value) {
+        result.innerHTML = "Please choose your birth date first.";
+        return;
+    }
     let birthDate = new Date(userInput.value);
     let d1 = birthDate.getDate();
     let m1 = birthDate.getMonth() + 1;
@@ -43,7 +47,8 @@ function calculateAge(){
     }
     result.innerHTML  = `You are ${y3} years, ${m3} months and ${d3} days old `;
     console.log(y3, m3, d3);
+}
+
 function getDaysInMonth(year, month){
         return new Date(year, month, 0).getDate();
     }
-}
